@@ -1,10 +1,11 @@
-Package: gallicagRam
+Package: rallicagram
 Type: Package
-Title: GallicagRam
+Title: rallicagram
 Version: 0.1.0
 Author: Benoît de Courson
 Maintainer: Benoît de Courson <b.decourson@csl.mpg.de>
 Description: Permet d'importer des données du projet Gallicagram
 License: Creative Commons
+Imports: stringr
 Encoding: UTF-8
 LazyData: true

@@ -26,5 +26,6 @@
 #' @return describe the output
 #' @examples
 gallicagram <- function(recherche,corpus="presse",debut=1789,fin=1950) {
+  recherche = str_replace(tolower(recherche)," ","%20")
   return(read.csv(paste("https://shiny.ens-paris-saclay.fr/guni/corpus=",corpus,"_",recherche,"_from=",debut,"_to=",fin,sep="")))
 }
