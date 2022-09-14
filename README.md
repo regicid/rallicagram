@@ -8,3 +8,6 @@ library(devtools) #Assurez vous d'avoir le package devtools installé
 install_github("regicid/rallicagram")
 library(rallicagram)
 ```
+
+## Usage
+gallicagram("josé",corpus="lemonde",debut=1960,fin=1970)
