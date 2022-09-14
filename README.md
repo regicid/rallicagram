@@ -3,7 +3,7 @@
 Un micro package R pour importer des données de [Gallicagram](https://shiny.ens-paris-saclay.fr/app/gallicagram).
 
 ## Installation et importation
-````R
+```R
 library(devtools) #Assurez vous d'avoir le package devtools installé
 install_github("regicid/rallicagram")
 library(rallicagram)
