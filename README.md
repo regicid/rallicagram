@@ -10,7 +10,7 @@ library(rallicagram)
 ```
 
 ## Usage
-````R
+```R
 gallicagram("josé",corpus="lemonde",debut=1960,fin=1970)
 ```
 
